@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentResultAppMvcAndApi.Data;
+using StudentResultAppMvcAndApi.Models.Entities;
 
 namespace StudentResultAppMvcAndApi.Controllers
 {
@@ -10,9 +11,9 @@ namespace StudentResultAppMvcAndApi.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public IActionResult Index(Student student)
         {
-            return View();
+            return View(student);
         }
     }
 }
