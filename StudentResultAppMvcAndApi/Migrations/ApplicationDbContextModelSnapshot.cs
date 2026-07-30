@@ -8,7 +8,7 @@ using StudentResultAppMvcAndApi.Data;
 
 #nullable disable
 
-namespace StudentResultAppMvcAndApi.Data.Migrations
+namespace StudentResultAppMvcAndApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

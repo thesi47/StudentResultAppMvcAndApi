@@ -9,10 +9,10 @@ using StudentResultAppMvcAndApi.Data;
 
 #nullable disable
 
-namespace StudentResultAppMvcAndApi.Data.Migrations
+namespace StudentResultAppMvcAndApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260729094344_initial-migrate")]
+    [Migration("20260730092730_initial-migrate")]
     partial class initialmigrate
     {
         /// <inheritdoc />
